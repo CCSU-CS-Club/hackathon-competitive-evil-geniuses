@@ -1,0 +1,30 @@
+let Tiles = [
+	{name: 'A', score: 1, selected: false},
+	{name: 'B', score: 3, selected: false},
+	{name: 'C', score: 3, selected: false},
+	{name: 'D', score: 2, selected: false},
+	{name: 'E', score: 1, selected: false},
+	{name: 'F', score: 4, selected: false},
+	{name: 'G', score: 2, selected: false},
+	{name: 'H', score: 4, selected: false},
+	{name: 'I', score: 1, selected: false},
+	{name: 'J', score: 8, selected: false},
+	{name: 'K', score: 5, selected: false},
+	{name: 'L', score: 1, selected: false},
+	{name: 'M', score: 3, selected: false},
+	{name: 'N', score: 1, selected: false},
+	{name: 'O', score: 1, selected: false},
+	{name: 'P', score: 3, selected: false},
+	{name: 'Q', score: 10, selected: false},
+	{name: 'R', score: 1, selected: false},
+	{name: 'S', score: 1, selected: false},
+	{name: 'T', score: 1, selected: false},
+	{name: 'U', score: 1, selected: false},
+	{name: 'V', score: 4, selected: false},
+	{name: 'W', score: 4, selected: false},
+	{name: 'X', score: 8, selected: false},
+	{name: 'Y', score: 4, selected: false},
+	{name: 'Z', score: 10, selected: false}
+];
+
+module.exports = Tiles;
