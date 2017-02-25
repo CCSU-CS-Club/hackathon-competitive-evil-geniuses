@@ -4,7 +4,7 @@ class Utility {
 
 	static read(input) {
 		return fs.readFileSync(input).toString().split('\n').map(line => {
-			return line.split(' ').map(i => +i);
+			return line.split(' ').map(i => + i);
 		});
 	}
 

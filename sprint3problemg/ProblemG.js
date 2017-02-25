@@ -25,13 +25,23 @@ for(let y = 0; y < people.length; y++) {
 	}
 }
 let diff = x - t;
-
+let moves = 0;
 if(x > 0) {
-
+	for(let z = 0; z < people.length; z++) {
+		if(people[z]) {
+			people[z - 1] = true;
+			people[z] = false;
+			moves++;
+		}
+	}
 } else {
-	
+	for(let z = 0; z < people.length; z++) {
+		if(people[z]) {
+			people[z + 1] = true;
+			people[z] = false;
+			moves++;
+		}
+	}
 }
 
-console.log(x);
-console.log(t);
-console.log(people);
+u.write(u.arg(1), moves);
